@@ -1,0 +1,33 @@
+para redonder al numero sigiente se usa  
+Y = round(X) redondea cada elemento de X al entero más próximo. En caso de un empate en el que un elemento tenga una parte fraccionaria de exactamente 0.5, la función round redondea alejándose de cero hacia el entero de mayor magnitud.
+
+Y = round(X,N) redondea a N dígitos:
+
+N > 0: redondea N dígitos a la derecha del separador decimal.
+
+N = 0: redondea al entero más próximo.
+
+N < 0: redondea N dígitos a la izquierda del separador decimal.
+
+Y = round(X,N,type) especifica el tipo de redondeo. Especifique 'significant' para que redondee a N dígitos significativos (contados a partir del dígito de la izquierda del todo). En este caso, N debe ser un entero positivo.
+
+Y = round(t) redondea cada elemento del arreglo duration t al número más próximo de segundos.
+
+Y = round(t,unit) redondea cada elemento de t al número más próximo de la unidad de tiempo especificado.
+
+
+
+Tablas en matlab 
+a = 1.1:0.1:2;
+b = 1:10;
+data = [b;a];
+fprintf('%s\t%s\n','x','y');
+fprintf('%d\t%1.1f\n',data);
+
+
+
+logaritmo base 2 en matlab 
+Y = log2(X)
+
+valor absoluto en matlab
+Y = abs(X)
